@@ -1,0 +1,5 @@
+[dev]
+server_dev ansible_host=52.47.190.29 ansible_become_user="developper"
+
+[app]
+server_app ansible_host=13.39.25.204 ansible_become_user="quarkus_user"
