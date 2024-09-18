@@ -1,0 +1,11 @@
+---
+roles:
+  - name: geerlingguy.java
+    src: https://github.com/geerlingguy/ansible-role-java.git
+    scm: git
+    version: master
+
+  - name: geerlingguy.apache
+    src: https://github.com/geerlingguy/ansible-role-apache.git
+    scm: git
+    version: master
