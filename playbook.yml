@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  roles:
+    - maven
+    - java
+    - quarkus
+    - mysql
+    - docker
+    - kubernetes
+    
+     

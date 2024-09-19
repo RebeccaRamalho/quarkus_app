@@ -1,7 +1,7 @@
 ---
 roles:
-  - name: configurations
+  - name: roles
     src: git@github.com:RebeccaRamalho/configuration_roles.git
     scm: git
-    version: master
+    version: main
 
